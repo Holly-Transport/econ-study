@@ -1,6 +1,6 @@
 # Advanced Econometrics Learning Plan
 
-An interactive, project-driven checklist for mastering advanced econometrics with Python, spatial analysis, and causal inference.
+Refresher coursework checklist for advanced econometrics with Python, spatial analysis, and causal inference.
 
 ## Features
 
