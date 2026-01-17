@@ -200,7 +200,7 @@ const EconometricsLearningPlan = () => {
         }
       ]
     },
-    "Phase 4: Spatial Econometrics (Months 8-9)": {
+    "Phase 4: Modern Spatial Econometrics (Months 8-9)": {
       icon: "🗺️",
       duration: "2 months",
       commitment: "12-15 hours/week",
@@ -210,62 +210,82 @@ const EconometricsLearningPlan = () => {
           items: [
             {
               id: "spatial-1",
-              task: "Purchase and read 'Modern Spatial Econometrics in Practice' by Anselin & Rey",
-              link: "https://www.amazon.com/Modern-Spatial-Econometrics-Practice-GeoDaSpace/dp/0986342106"
+              task: "Read 'Geographic Data Science with Python' (Free online textbook)",
+              link: "https://geographicdata.science/book/intro.html"
             },
             {
               id: "spatial-2",
-              task: "Read 'Geographic Data Science with Python' (Free online)",
-              link: "https://geographicdata.science/book/intro.html"
+              task: "Study PySAL spatial regression documentation and notebooks",
+              link: "https://darribas.org/gds_scipy16/ipynb_md/08_spatial_regression.html"
             }
           ]
         },
         {
-          title: "Software & Implementation",
+          title: "Modern Geospatial Stack",
           items: [
             {
               id: "spatial-3",
-              task: "Install PySAL: pip install pysal geopandas",
-              link: "https://pysal.org/"
+              task: "Install core libraries: pip install pysal geopandas h3 pydeck keplergl",
+              link: "https://github.com/pysal/pysal"
             },
             {
               id: "spatial-4",
-              task: "Work through PySAL documentation and tutorials",
-              link: "https://pysal.readthedocs.io/"
+              task: "Learn H3 hexagonal spatial indexing (Uber's system)",
+              link: "https://uber.github.io/h3-py/intro.html"
             },
             {
               id: "spatial-5",
-              task: "Explore PySAL Notebooks project",
-              link: "https://pysal.org/docs/users/"
+              task: "Complete H3 polygon tutorial for spatial aggregation",
+              link: "https://github.com/uber/h3-py/blob/master/docs/polygon_tutorial.ipynb"
             },
             {
               id: "spatial-6",
-              task: "Download and explore GeoDa tools",
-              link: "https://geodacenter.github.io/GeoDaSpace/resources.html"
+              task: "Master GeoPandas for vector data processing",
+              link: "https://geopandas.org/"
             }
           ]
         },
         {
-          title: "Learning Path",
+          title: "Modern Visualization Tools",
           items: [
             {
               id: "spatial-7",
-              task: "Weeks 1-2: Read Anselin & Rey Chapters 1-5",
-              link: "https://www.amazon.com/Modern-Spatial-Econometrics-Practice-GeoDaSpace/dp/0986342106"
+              task: "Learn Kepler.gl for interactive geospatial visualization in Jupyter",
+              link: "https://kepler.gl/"
             },
             {
               id: "spatial-8",
-              task: "Weeks 3-4: Master spatial weights and spatial dependence",
-              link: "https://pysal.org/"
+              task: "Work through Kepler.gl and Pydeck geospatial analysis tutorial",
+              link: "https://www.kaggle.com/code/ramjasmaurya/geospatial-analysis-using-kepler-gl-and-pydeck"
             },
             {
               id: "spatial-9",
-              task: "Weeks 5-6: Learn SAR, SEM, and spatial regimes models",
+              task: "Explore Kepler.gl AI Assistant for spatial analysis",
+              link: "https://github.com/keplergl/kepler.gl/discussions/2843"
+            }
+          ]
+        },
+        {
+          title: "Spatial Econometric Models",
+          items: [
+            {
+              id: "spatial-10",
+              task: "Week 1-2: Master spatial weights matrices with PySAL",
               link: "https://pysal.org/"
             },
             {
-              id: "spatial-10",
-              task: "Weeks 7-8: Build spatial econometrics project",
+              id: "spatial-11",
+              task: "Week 3-4: Learn spatial lag (SAR) and spatial error (SEM) models",
+              link: "https://darribas.org/gds_scipy16/ipynb_md/08_spatial_regression.html"
+            },
+            {
+              id: "spatial-12",
+              task: "Week 5-6: H3 aggregation for spatial analysis at multiple resolutions",
+              link: "https://h3geo.org/docs/"
+            },
+            {
+              id: "spatial-13",
+              task: "Week 7-8: Build spatial econometrics project with modern tools",
               link: ""
             }
           ]
@@ -275,7 +295,7 @@ const EconometricsLearningPlan = () => {
           items: [
             {
               id: "proj-4",
-              task: "Project 4: Spatial analysis (housing prices, crime, or economic development)",
+              task: "Project 4: Spatial analysis with H3 aggregation and interactive Kepler.gl viz",
               link: ""
             }
           ]
@@ -470,8 +490,8 @@ const EconometricsLearningPlan = () => {
             <p className="mb-2"># Econometrics</p>
             <p className="mb-4">pip install statsmodels linearmodels</p>
             
-            <p className="mb-2"># Spatial analysis</p>
-            <p className="mb-4">pip install pysal geopandas</p>
+            <p className="mb-2"># Spatial analysis (modern stack)</p>
+            <p className="mb-4">pip install pysal geopandas h3 pydeck keplergl</p>
             
             <p className="mb-2"># QuantEcon</p>
             <p className="mb-4">pip install quantecon</p>
@@ -486,7 +506,7 @@ const EconometricsLearningPlan = () => {
               <li>Progress is saved automatically in the browser</li>
               <li>Focus on completing one phase before moving to the next</li>
               <li>Projects are crucial!</li>
-              <li>Spatial econometrics (Phase 4) is so fun!</li>
+              <li>Modern spatial tools (H3, Kepler.gl) give you a competitive edge</li>
               <li>Timeline: 10-12 months at 12-15 hours/week</li>
             </ul>
           </div>
