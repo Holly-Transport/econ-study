@@ -358,8 +358,8 @@ const EconometricsLearningPlan = () => {
             🎯 Advanced Econometrics Learning Plan
           </h1>
           <p className="text-gray-600 mb-6">
-            A comprehensive, project-driven path to mastering econometrics with Python, 
-            spatial analysis, and causal inference. Track your progress as you go!
+            A refresher learning checklist for advanced econometrics with Python, 
+            spatial analysis, and causal inference. Woo! 
           </p>
           
           {/* Progress Bar */}
