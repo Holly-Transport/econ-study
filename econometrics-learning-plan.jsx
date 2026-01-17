@@ -506,7 +506,7 @@ const EconometricsLearningPlan = () => {
               <li>Progress is saved automatically in the browser</li>
               <li>Focus on completing one phase before moving to the next</li>
               <li>Projects are crucial!</li>
-              <li>Modern spatial tools (H3, Kepler.gl) give you a competitive edge</li>
+              <li>Modern spatial tools (H3, Kepler.gl) are so fun!!</li>
               <li>Timeline: 10-12 months at 12-15 hours/week</li>
             </ul>
           </div>
